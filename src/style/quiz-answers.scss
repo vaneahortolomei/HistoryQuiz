@@ -1,0 +1,9 @@
+.quiz-answers {
+    &__button {
+        box-shadow: 0 15px 30px rgb(31 51 136 / 15%);
+
+        &:not(first-child) {
+            margin-top: 10px;
+        }
+    }
+}

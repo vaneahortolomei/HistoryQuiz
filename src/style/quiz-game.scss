@@ -1,0 +1,23 @@
+.quiz-game {
+    width: min(100%, 400px);
+    margin: 20px auto;
+    background: var(--white-color);
+    border-radius: 15px;
+    overflow: hidden;
+
+    &__container {
+        display: flex;
+        &--transition {
+            transition: transform 0.3s;
+        }
+    }
+
+    &__form {
+        background: var(--green-color);
+    }
+
+    &__form, &__question {
+        flex: 1 0 100%;
+        padding: 20px;
+    }
+}
