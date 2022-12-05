@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href=""/>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quiz</title>
-  </head>
-  <body>
-    <div class="container"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+</head>
+<body>
+<div class="container">
+    <div class="quiz-game">
+        <div class="quiz-game__container">
+            <div id="first-step" class="quiz-game__form quiz-form form">
+                <div class="form__group">
+                    <label for="player1" class="form__label">Name</label>
+                    <input id="player1" type="text" class="form__input"/>
+                </div>
+                <button id="next-btn"
+                        type="button"
+                        class="button
+                        button--white
+                        button--responsive
+                        quiz-form__button"
+                >Next Step
+                </button>
+            </div>
+            <div id="second-step" class="quiz-game__question">
+                <header class="quiz-header">
+                    <p class="quiz-header__name">Name</p>
+                </header>
+                <div class="quiz-question">
+                    <span class="quiz-question__count">1/10</span>
+                    <p class="quiz-question__text">What year was the first Iron Man movie released, kicking off the
+                        Marvel Cinematic Universe?</p>
+                </div>
+                <ul class="quiz-answers">
+                    <li class="quiz-answers__item">
+                        <button type="button"
+                                class="button button--white button--responsive quiz-answers__button">2005
+                        </button>
+                    </li>
+                    <li class="quiz-answers__item">
+                        <button type="button" class="button button--white button--responsive quiz-answers__button">2005
+                        </button>
+                    </li>
+                    <li class="quiz-answers__item">
+                        <button type="button"
+                                class="button button--white button--responsive quiz-answers__button">2005
+                        </button>
+                    </li>
+                    <li class="quiz-answers__item">
+                        <button type="button" class="button button--white button--responsive quiz-answers__button">2005
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="module" src="/main.js"></script>
+</body>
 </html>

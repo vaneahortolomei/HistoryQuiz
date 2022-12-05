@@ -1,0 +1,12 @@
+.button.button--white {
+    background: var(--white-color);
+    color: var(--green-color);
+    border: 1px solid var(--green-color);
+    &:focus {
+        outline: none;
+        border: 1px solid var(--yellow-color);
+    }
+    &:hover {
+        box-shadow: 0 15px 30px #1f338859;
+    }
+}

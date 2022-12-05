@@ -1,0 +1,9 @@
+.quiz-header {
+    padding: 20px;
+    background: var(--green-color);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    &__name {
+        font-weight: 500;
+    }
+}
