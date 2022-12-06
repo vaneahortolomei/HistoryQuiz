@@ -1,6 +1,17 @@
 .quiz-finish {
     padding: 20px;
     width: 100%;
+
+    &__controls {
+        display: flex;
+
+        .button {
+            + .button {
+                margin-left: 15px;
+            }
+        }
+    }
+
     p {
         margin-bottom: 20px;
         color: var(--black-color);
