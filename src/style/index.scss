@@ -1,11 +1,13 @@
 @import "utils/container/index";
 @import "utils/form/index";
 @import "utils/button/index";
+@import "utils/loader";
 @import "quiz-game";
 @import "quiz-form";
 @import "quiz-question";
 @import "quiz-answers";
 @import "quiz-header";
+@import "quiz-finish";
 
 
 :root {
@@ -21,7 +23,8 @@
     --yellow-color: #ffe388;
     --red-color: #e9504f;
     --brown-color: #775f41;
-    --black-color: #242424;
+    --black-color: #646464;
+    --gray-color: #646464;
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);

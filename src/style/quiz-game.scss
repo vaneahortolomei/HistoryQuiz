@@ -7,6 +7,7 @@
 
     &__container {
         display: flex;
+        position: relative;
         &--transition {
             transition: transform 0.3s;
         }
@@ -16,8 +17,12 @@
         background: var(--green-color);
     }
 
-    &__form, &__question {
+    &__form, &__question, &__finish {
         flex: 1 0 100%;
         padding: 20px;
+        color: var(--black-color)
+    }
+    &__btn {
+        margin-top: 20px;
     }
 }

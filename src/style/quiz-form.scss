@@ -2,4 +2,11 @@
     &__button {
         margin-top: 20px;
     }
+    &__avatar {
+        width: 200px;
+        height: 200px;
+        margin: 20px auto 20px;
+        border-radius: 50%;
+        background: var(--white-color);
+    }
 }
