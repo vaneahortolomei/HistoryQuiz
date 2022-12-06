@@ -1,204 +1,224 @@
 {
-    "quiz": [
+    "answers": [
         {
             "id": 1,
             "text": "What year was the first Iron Man movie released, kicking off the Marvel Cinematic Universe?",
-            "a": {
-                "a": "2005",
-                "boolean": false
-            },
-            "b": {
-                "b": "2008",
-                "boolean": true
-            },
-            "c": {
-                "c": "2010",
-                "boolean": false
-            },
-            "d": {
-                "d": "2012",
-                "boolean": false
-            }
+            "answers": [
+                {
+                    "name": "2005",
+                    "boolean": false
+                },
+                {
+                    "name": "2008",
+                    "boolean": true
+                },
+                {
+                    "name": "2010",
+                    "boolean": false
+                },
+                {
+                    "name": "2012",
+                    "boolean": false
+                }
+            ]
         },
         {
             "id": 2,
             "text": "What is the name of Thor’s hammer?",
-            "a": {
-                "a": "Vanir",
-                "boolean": false
-            },
-            "b": {
-                "b": "Mjolnir",
-                "boolean": true
-            },
-            "c": {
-                "c": "Aesir",
-                "boolean": false
-            },
-            "d": {
-                "d": "Norn",
-                "boolean": false
-            }
+            "answers": [
+                {
+                    "name": "Vanir",
+                    "boolean": false
+                },
+                {
+                    "name": "Mjolnir",
+                    "boolean": true
+                },
+                {
+                    "name": "Aesir",
+                    "boolean": false
+                },
+                {
+                    "name": "Norn",
+                    "boolean": false
+                }
+            ]
         },
         {
             "id": 3,
             "text": "In the Incredible Hulk, what does Tony tell Thaddeus Ross at the end of the film?",
-            "a": {
-                "a": "That he wants to study The Hulk",
-                "boolean": false
-            },
-            "b": {
-                "b": "That he knows about S.H.I.E.L.D.",
-                "boolean": false
-            },
-            "c": {
-                "c": "That they are putting a team together",
-                "boolean": true
-            },
-            "d": {
-                "d": "That Thaddeus owes him money",
-                "boolean": false
-            }
+            "answers": [
+                {
+                    "name": "That he wants to study The Hulk",
+                    "boolean": false
+                },
+                {
+                    "name": "That he knows about S.H.I.E.L.D.",
+                    "boolean": false
+                },
+                {
+                    "name": "That they are putting a team together",
+                    "boolean": true
+                },
+                {
+                    "name": "That Thaddeus owes him money",
+                    "boolean": false
+                }
+            ]
         },
         {
             "id": 4,
             "text": "What is Captain America’s shield made of?",
-            "a": {
-                "a": "Adamantium",
-                "boolean": false
-            },
-            "b": {
-                "b": "Vibranium",
-                "boolean": true
-            },
-            "c": {
-                "c": "Promethium",
-                "boolean": false
-            },
-            "d": {
-                "d": "Carbonadium",
-                "boolean": false
-            }
+            "answers": [
+                {
+                    "name": "Adamantium",
+                    "boolean": false
+                },
+                {
+                    "name": "Vibranium",
+                    "boolean": true
+                },
+                {
+                    "name": "Promethium",
+                    "boolean": false
+                },
+                {
+                    "name": "Carbonadium",
+                    "boolean": false
+                }
+            ]
         },
         {
             "id": 5,
             "text": "The Flerkens are a race of extremely dangerous aliens that resembles what?",
-            "a": {
-                "a": "Cats",
-                "boolean": true
-            },
-            "b": {
-                "b": "Ducks",
-                "boolean": false
-            },
-            "c": {
-                "c": "Reptiles",
-                "boolean": false
-            },
-            "d": {
-                "d": "Raccoons",
-                "boolean": false
-            }
+            "answers": [
+                {
+                    "name": "Cats",
+                    "boolean": true
+                },
+                {
+                    "name": "Ducks",
+                    "boolean": false
+                },
+                {
+                    "name": "Reptiles",
+                    "boolean": false
+                },
+                {
+                    "name": "Raccoons",
+                    "boolean": false
+                }
+            ]
         },
         {
             "id": 6,
             "text": "Before becoming Vision, what is the name of Iron Man’s A.I. butler?",
-            "a": {
-                "a": "H.O.M.E.R.",
-                "boolean": false
-            },
-            "b": {
-                "b": "J.A.R.V.I.S.",
-                "boolean": true
-            },
-            "c": {
-                "c": "A.L.F.R.E.D.",
-                "boolean": false
-            },
-            "d": {
-                "d": "M.A.R.V.I.N.",
-                "boolean": false
-            }
+            "answers": [
+                {
+                    "name": "H.O.M.E.R.",
+                    "boolean": false
+                },
+                {
+                    "name": "J.A.R.V.I.S.",
+                    "boolean": true
+                },
+                {
+                    "name": "A.L.F.R.E.D.",
+                    "boolean": false
+                },
+                {
+                    "name": "M.A.R.V.I.N.",
+                    "boolean": false
+                }
+            ]
         },
         {
             "id": 7,
             "text": "What is the real name of the Black Panther?",
-            "a": {
-                "a": "T’Challa",
-                "boolean": true
-            },
-            "b": {
-                "b": "M’Baku",
-                "boolean": false
-            },
-            "c": {
-                "c": "N’Jadaka",
-                "boolean": false
-            },
-            "d": {
-                "d": "N’Jobu",
-                "boolean": false
-            }
+            "answers": [
+                {
+                    "name": "T’Challa",
+                    "boolean": true
+                },
+                {
+                    "name": "M’Baku",
+                    "boolean": false
+                },
+                {
+                    "name": "N’Jadaka",
+                    "boolean": false
+                },
+                {
+                    "name": "N’Jobu",
+                    "boolean": false
+                }
+            ]
         },
         {
             "id": 8,
             "text": "What is the alien race Loki sends to invade Earth in The Avengers?",
-            "a": {
-                "a": "The Chitauri",
-                "boolean": true
-            },
-            "b": {
-                "b": "The Skrulls",
-                "boolean": false
-            },
-            "c": {
-                "c": "The Kree",
-                "boolean": false
-            },
-            "d": {
-                "d": "The Flerkens",
-                "boolean": false
-            }
+            "answers": [
+                {
+                    "name": "The Chitauri",
+                    "boolean": true
+                },
+                {
+                    "name": "The Skrulls",
+                    "boolean": false
+                },
+                {
+                    "name": "The Kree",
+                    "boolean": false
+                },
+                {
+                    "name": "The Flerkens",
+                    "boolean": false
+                }
+            ]
         },
         {
             "id": 9,
             "text": "What fake name does Natasha use when she first meets Tony?",
-            "a": {
-                "a": "Natalie Rushman",
-                "boolean": true
-            },
-            "b": {
-                "b": "Natalia Romanoff",
-                "boolean": false
-            },
-            "c": {
-                "c": "Nicole Rohan",
-                "boolean": false
-            },
-            "d": {
-                "d": "Naya Rabe",
-                "boolean": false
-            }
+            "answers": [
+                {
+                    "name": "Natalie Rushman",
+                    "boolean": true
+                },
+                {
+                    "name": "Natalia Romanoff",
+                    "boolean": false
+                },
+                {
+                    "name": "Nicole Rohan",
+                    "boolean": false
+                },
+                {
+                    "name": "Naya Rabe",
+                    "boolean": false
+                }
+            ]
         },
         {
             "id": 10,
             "text": "Who was the last holder of the Space Stone before Thanos claims it for his Infinity Gauntlet?",
-            "a": {
-                "a": "Thor",
-                "boolean": false
-            },
-            "b": {
-                "b": "Loki",
-                "boolean": true
-            },
-            "c": {
-                "c": "The Collector",
-                "boolean": false
-            },
-            "d": {
-                "d": "Tony Stark",
-                "boolean": false
-            }
+            "answers": [
+                {
+                    "name": "Thor",
+                    "boolean": false
+                },
+                {
+                    "name": "Loki",
+                    "boolean": true
+                },
+                {
+                    "name": "The Collector",
+                    "boolean": false
+                },
+                {
+                    "name": "Tony Stark",
+                    "boolean": false
+                }
+            ]
         }
     ]
 }

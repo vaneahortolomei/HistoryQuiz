@@ -13,9 +13,11 @@
     <div class="quiz-game">
         <div class="quiz-game__container">
             <div id="first-step" class="quiz-game__form quiz-form form">
+                <div class="quiz-form__avatar"></div>
                 <div class="form__group">
                     <label for="player1" class="form__label">Name</label>
                     <input id="player1" type="text" class="form__input"/>
+                    <span class="form__error">Field is empty!</span>
                 </div>
                 <button id="next-btn"
                         type="button"
@@ -28,33 +30,16 @@
             </div>
             <div id="second-step" class="quiz-game__question">
                 <header class="quiz-header">
-                    <p class="quiz-header__name">Name</p>
+                    <p class="quiz-header__name"></p>
+                    <span class="quiz-header__score"></span>
                 </header>
                 <div class="quiz-question">
-                    <span class="quiz-question__count">1/10</span>
-                    <p class="quiz-question__text">What year was the first Iron Man movie released, kicking off the
-                        Marvel Cinematic Universe?</p>
+                    <span class="quiz-question__count"></span>
+                    <p class="quiz-question__text"></p>
                 </div>
-                <ul class="quiz-answers">
-                    <li class="quiz-answers__item">
-                        <button type="button"
-                                class="button button--white button--responsive quiz-answers__button">2005
-                        </button>
-                    </li>
-                    <li class="quiz-answers__item">
-                        <button type="button" class="button button--white button--responsive quiz-answers__button">2005
-                        </button>
-                    </li>
-                    <li class="quiz-answers__item">
-                        <button type="button"
-                                class="button button--white button--responsive quiz-answers__button">2005
-                        </button>
-                    </li>
-                    <li class="quiz-answers__item">
-                        <button type="button" class="button button--white button--responsive quiz-answers__button">2005
-                        </button>
-                    </li>
-                </ul>
+                <ul class="quiz-answers"></ul>
+                <button type="button" disabled class="button button--responsive button--green quiz-game__btn">Next
+                </button>
             </div>
         </div>
     </div>
