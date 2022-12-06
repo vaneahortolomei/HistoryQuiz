@@ -48,16 +48,29 @@ const renderSecondStep = () => {
 
 
     if (n > quiz.length) {
-        box.innerHTML = `<div class="quiz-finish">
+        createLoader();
+        setTimeout(() => {
+            box.innerHTML = `<div class="quiz-finish">
             <p>Finish!</p>
+            <div class="quiz-finish__controls">
             <button id="btn-reload" type="button" class="button button--green button--responsive">ReloadGame</button>
+            <button id="btn-clear" type="button" class="button button--green button--responsive">ClearData</button>
+</div>         
         </div>`
 
 
-        const btn = document.querySelector('#btn-reload');
-        btn.addEventListener('click', () => {
-            window.location.reload();
-        })
+            const reload = document.querySelector('#btn-reload'),
+                clear = document.querySelector('#btn-clear');
+
+            reload.addEventListener('click', () => {
+                window.location.reload();
+            });
+
+            clear.addEventListener('click', () => {
+                window.localStorage.clear();
+                window.location.reload();
+            });
+        }, 1000)
 
     }
 
